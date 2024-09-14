@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCPX</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+<header>
+    <img id="ccpx" src="ccxp.svg" >
+
+</header>
+
+
+<section id="grandeParte">
+    
+    <div id="textos">
+        <h1 id="tituloGp">REVIVA O ÉPICO
+        </h1> <br>
+        <h3 id="SubTituloGp">DE 01 A 04 DE DEZEMBRO</h3><br> <br> 
+        <p id="textGp">Você consegue sentir? É aquela sensação de <br>finalmente poder falar em voz alta: "estamos <br> em casa". Sim, em dezembro de 2022,<br> teremos a volta da CCXP física. Mas não será <br> qualquer CCXP, vai ser a maior de todos os <br> tempos. Prepare-se para visitar seus <br> universos favoritos, explorar o Artists' Valley,<br> se emocionar nos auditórios e encontrar <br> aventuras épicas a cada passo pelos nossos <br>corredores.</p>
+    
+    </div>
+
+    <div id="templates">
+        <div id="timer">
+            <div>
+                <h1 id="dia">00</h1>
+                <p class="para"> D:</p>
+            </div>
+            
+            <div>
+                <h1 id="hora">00</h1>
+                <p class="para">H:</p>
+            </div>
+            <div>
+                <h1 id="minuto">00</h1>
+                <p class="para"> M:</p>
+            </div>
+            <div>
+                <h1 id="segundo">00</h1>
+                <p class="para">S:</p>
+            </div>
+    
+        </div>
+        <h3 id="tituloArlequina">PARA A MAIOR CCXP DE TODOS OS TEMPOS</h3>
+        <iframe id="video" width="100%" height="720" src="https://www.youtube.com/embed/xmTBH9We6Ms" title="BURRÃO E OS FAMOSOS | EMBRULHA PRA VIAGEM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+</section>
+
+
+<section id="bottom">
+   
+    <div id="ingressos">
+        <h3 id="tituloIngressos">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
+        <img class="destacarCar"  src="qui.svg"  onclick="SelectCard('#quinta')"  onmouseover="Destacar('#quinta')"  onmouseout="Destacar('#quinta')"  id="quinta">
+        <img class="destacarCar"  src="sex.svg"  onclick="SelectCard('#sexta')"   onmouseover="Destacar('#sexta')"   onmouseout="Destacar('#sexta')"  id="sexta">
+        <img class="destacarCar"  src="sab.svg"  onclick="SelectCard('#sabado')"   onmouseover="Destacar('#sabado')"  onmouseout="Destacar('#sabado')"  id="sabado">
+        <img class="destacarCar"  src="dom.svg"  onclick="SelectCard('#domingo')"   onmouseover="Destacar('#domingo')" onmouseout="Destacar('#domingo')"  id="domingo">
+        
+        </div>
+
+        <div id="input">
+            <input onclick="showSelectedCards()" class="botao" type="button" value="GARANTA O SEU!">
+        </div>
+    
+</section>
+
+<div id="formulario">
+    <form action="https://www.google.com">
+
+        <input class="botao1" type="email" placeholder="   seu email:" required>
+        <input class="botao1" id="botao1" type="submit">
+        
+    </form>
+    
+</div>
+
+<script src="personalizado.js"></script>
+<script src="script.js"></script>
+    
+</body>
+</html>

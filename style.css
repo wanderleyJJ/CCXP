@@ -1,0 +1,153 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+/* Tópico*/
+header{
+    padding: 30px;
+    background-color: #FFD900;
+    }
+
+/*Textos*/ 
+#grandeParte{
+    display: grid;
+    grid-auto-flow: column;
+
+}
+#textos{
+    
+    padding-top: 30px;
+    text-align: center;
+    background-color:  #514988;
+    width: 80%;
+    height: 600px;
+    padding-bottom: 50px;
+    
+    
+}
+#tituloGp{
+    font-size: 50px;
+    color: #FFD900;
+}
+#SubTituloGp{
+    font-size: 30px;
+    color: #FFFFFF;
+    
+
+}
+#textGp{
+font-size: 35px;
+color: #FFFFFF;
+}
+
+/*RELÓGIO*/
+#timer{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 30px;
+    font-size: 20px;
+    color: #514988;
+    margin-left: -50px;
+}
+.para{
+    margin-left: -34px;
+    margin-top: -35px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*TEMPLATE*/
+#tituloArlequina{
+    font-size: 20px;
+    color:  #E33881;
+    margin-left: -55px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+#video{
+    width: 100%;
+    height: 500px;
+    margin-left: -100px;
+}
+
+/*INGRESSOS*/
+#bottom{
+    margin-bottom: 100px;
+}
+#ingressos{
+    margin-left: 50px;
+     
+}
+#tituloIngressos{
+font-size: 30px;
+margin-top: 30px;
+margin-bottom: 50px;
+color: #FFD900;
+margin-left: 50px;
+}
+
+
+/*BOTAO*/
+#input{
+    margin-top: -120px;
+    margin-left: 800px;
+}
+.botao{
+
+    width: 300px;
+    height: 100px;
+    color: #FFFFFF;
+    background-color: #514988;
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.botao:hover{
+    transform: translateY(-20px);
+    transition-duration: 0.2s;
+    
+    background-color: #69609e;
+    color: #FFD900;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 10px gray;
+
+}
+.destacarCard{
+    box-shadow: 10px 10px 10px 10px gray;
+    transform: translateY(-30px);
+    transition-duration: 0.1s;
+}
+.destacarCar{
+    width: 130px;
+}
+.selecionarCar{
+    border: 5px solid green;
+}
+#formulario{
+    background-color: #dbc443
+   
+}
+.botao1{
+    width: 300px;
+    height: 70px;
+    margin:50px 0px 50px 300px;
+     font-size: 30px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    background-color: #514988;
+    color: white;
+    
+}
+#botao1:hover{
+    background-color: #69609e;
+    color: #ffd900;
+    cursor: pointer;
+    transform: translateY(-15px);
+    transition-duration: 0.2s;
+    box-shadow: 10px 10px 10px 10px gray;
+    
+}
